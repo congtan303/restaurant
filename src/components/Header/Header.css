@@ -1,0 +1,192 @@
+.header-restaurant {
+    width: 100%;
+    height: 62px;
+    background: #2F2A2A;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 48px;
+}
+
+.header-logo-restaurant {
+    flex: 1;
+}
+
+.navbar-wrap {
+    flex: 2;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    flex: 1;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding-right: 34px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    color: #F7C334;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.nav-links li:hover {
+    color: #fff;
+}
+
+.header-contact-right {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex: 1;
+}
+
+.header-contact-restaurant {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.border-contact {
+    height: 51px;
+
+    border: 1px solid #F7C334;
+    margin: 0 12px 0 22px;
+}
+
+.icon-phone-number {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    top: -2px;
+}
+
+.phone-number {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 14px;
+    /* identical to box height */
+
+    margin-right: 6px;
+    color: #F7C334;
+}
+
+.address-contact {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    color: #F7C334;
+    width: 110px;
+    height: 28px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    margin-bottom: 2px;
+}
+
+.btn-preventive {
+    width: 134px;
+    height: 36px;
+    background: #F7C334;
+    border-radius: 120px;
+    color: white;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+}
+
+/* button toggle (mobile) */
+#mobile {
+    display: none;
+}
+
+#mobile i {
+    color: #F7C334;
+    font-size: 30.88px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 1180px) {
+    .header-restaurant{
+
+        padding: 0 9px;
+    }
+    .navbar-wrap-mobile {
+        position: fixed;
+        top: 61px;
+        right: 0;
+        height: 100%;
+        width: 40%;
+        background: #665b5b;
+        transition: 0.3s ease-in-out;
+        z-index: 10
+    }
+
+    .navbar-wrap-mobile .active {   
+    }
+
+    .navbar-wrap {
+        display: none;
+    }
+
+    #mobile {
+        display: block;
+        margin-right: 6px;
+    }
+
+
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20%;
+        margin-top: 26%;
+    }
+
+    .nav-links li {
+        margin-bottom: 36px;
+    }
+
+    .nav-links li:hover {
+        color: #fff;
+    }
+
+    .header-contact-right {
+        flex-direction: column;
+        flex: 0;
+
+    }
+
+    .header-contact-restaurant {
+        margin-bottom: 16px;
+        flex-direction: column;
+    }
+
+    .border-contact {
+        margin: 0;
+        transform: rotate(90deg);
+    }
+
+    .btn-preventive {
+        width: 74%;
+        font-size: 60%;
+    }
+}

@@ -1,0 +1,111 @@
+.footer-container {
+    background-color: #2f2a2a;
+    display: flex;
+    flex-direction: column;
+    padding: 45px 0;
+}
+
+.footer-left {}
+
+.footer-left img {
+    margin: 0 auto 24px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-description {
+    width: 265px;
+    height: 94px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    /* or 181% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+    margin: 0 auto;
+}
+
+.working-hours-title,
+.footer-instruction-title,
+.footer-dishes-title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 40px;
+    /* or 333% */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    margin: 18px 0;
+}
+
+.working-hours-in-week {
+    width: 194px;
+    height: 61px;
+    margin: 0 auto;
+}
+
+.working-hours-in-week,
+.working-hours-weekend,
+.working-hours-weekend-closed {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    /* or 181% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.working-hours-weekend-title,
+.working-hours-weekend-closed-title
+{
+    margin-top: 12px;
+}
+
+.footer-right {}
+
+.footer-instruction-title,
+.footer-dishes-title{
+    margin: 22px auto 2px auto;
+}
+
+.footer-intruction-list{
+    width: 91px;
+    height: 167.94px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 40px;
+/* or 250% */
+
+text-align: center;
+
+color: #FFFFFF;
+margin: 0 auto  ;
+}
+.footer-dishes-list{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 40px;
+/* or 250% */
+
+text-align: center;
+
+color: #FFFFFF;
+}

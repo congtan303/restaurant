@@ -1,0 +1,30 @@
+.dishes-container {
+    background-color: #2F2A2A;
+
+}
+
+.dishes-title {
+    width: 147px;
+    height: 62px;
+    font-family: 'Tinos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 62px;
+    /* identical to box height */
+
+
+    color: #F7C334;
+    margin: 0 auto;
+}
+
+.img-dishes{
+    width: 390px;
+}
+
+.dishes-spring-roll,
+.dishes-fish,
+.dishes-tofu,
+.dishes-egg-rice{
+    width: 389px;
+}
